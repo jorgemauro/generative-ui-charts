@@ -5,8 +5,6 @@
  * do sistema de UI Generativa.
  */
 
-export { CHART_GENERATION_PROMPT } from './chart-prompt';
-
 export {
   CHAT_GENERATION_PROMPT,
   addFileDataContext,
@@ -14,8 +12,9 @@ export {
   buildContextualPrompt,
 } from './chat-prompt';
 
-// Futuramente, adicione aqui novos prompts:
+// Futuramente, adicione aqui novos prompts para outros tipos de UI:
 // export { FORM_GENERATION_PROMPT } from './form-prompt';
 // export { TABLE_GENERATION_PROMPT } from './table-prompt';
 // export { DASHBOARD_GENERATION_PROMPT } from './dashboard-prompt';
+// export { CHART_GENERATION_PROMPT } from './chart-prompt'; // Se precisar de geração simples
 
